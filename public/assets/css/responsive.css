@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 21, 2020, 10:43:07 AM
+    Author     : Admin
+*/
+/*Mobile & Tablet*/
+@media (max-width: 1023px) {
+
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .full-wrap {
+        width: 100% !important;
+    }
+
+    .navbar-header {
+        padding: 12px 16px;
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .navbar-toggle {
+        position: relative;
+        display: block;
+        cursor: pointer;
+    }
+
+    .navbar-toggle-icon {
+        font-size: 2rem;
+        color: var(--white-color);
+        position: relative;
+        top: 1px;
+    }
+
+    .main-wrap__item-desc-link {
+        font-size: 1.4rem !important;
+    }
+
+    .main-wrap__item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-wrap__item-desc {
+        margin: 8px 0 0 0;
+    }
+    
+    .main-wrap__item-link {
+        margin-right: 0;
+    }
+    /* .main-wrap__item::after {
+        content: "";
+        display: block;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-bottom: 1px dotted var(--border-color);
+        margin: 0 8px;
+    } */
+}
+/* Table */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+}
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .navbar-mobile-collapse {
+        width:100%;
+    }
+}
